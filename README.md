@@ -3,15 +3,22 @@ Repository used to house all assets associated with the final project for the Co
 
 Author: Jeff Charatan
 
-The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
+The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set.
 
 ## Review criteria
-The submitted data set is tidy.
-The Github repo contains the required scripts.
-GitHub contains a code book that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information.
-The README that explains the analysis files is clear and understandable.
-The work submitted for this project is the work of the student who submitted it.
+1. The submitted data set is tidy.
+2. The Github repo contains the required scripts.
+3. GitHub contains a code book that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information.
+4. The README that explains the analysis files is clear and understandable.
+5. The work submitted for this project is the work of the student who submitted it.
 
+
+
+## Deliverable Descriptions
+1. README.MD
+2. run_analysis.R - R script designed based on the speicifcation provided in the 'Getting and Cleaning Data Course Project' assignment.
+3. codebook.md - Codebook MD file to indicate and describe all variables
+4. tidy_data_set.txt - Independent data set that contains the average (mean) for each activuty and subject. 
 
 
 
