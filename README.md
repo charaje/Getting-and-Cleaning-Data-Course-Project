@@ -12,10 +12,8 @@ The purpose of this project is to demonstrate the ability to collect, work with,
 4. The README that explains the analysis files is clear and understandable.
 5. The work submitted for this project is the work of the student who submitted it.
 
-
-
 ## File Deliverable Descriptions
-1. README.md
+1. README.md - Files explains objective and project components 
 2. run_analysis.R - R script designed based on the speicifcation provided in the 'Getting and Cleaning Data Course Project' assignment.
 3. codebook.md - Codebook MD file to indicate and describe all variables
 4. IndependentTidyDataSet.txt - Independent data set that contains the average (mean) for each activuty and subject. 
