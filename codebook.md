@@ -3,8 +3,7 @@ title: "Codebook - Getting and Cleaning Data Course Project"
 author: "Jeff Charatan"
 date: "4/5/2019"
 output:
-  html_document:
-    keep_md: yes
+  IndependentTidyDataSet.txt
 ---
 
 ## Project Description
