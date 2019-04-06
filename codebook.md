@@ -10,6 +10,41 @@ output:
 Short description of the project
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. 
 
+
+## Data Source
+
+## Dataset Detail
+
+## Data Inputs
+
+While the ZIP input file contains numerous datasets, this project will only require the following (7) files. 
+
+- README.txt
+- features_info.txt: Shows information about the variables used on the feature vector.
+- features.txt: List of all features.
+- activity_labels.txt: Links the class labels with their activity name.
+- train/X_train.txt: Training set.
+- train/y_train.txt: Training labels.
+- test/X_test.txt: Test set.
+- test/y_test.txt: Test labels.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ##Study design and data processing
 
 ###Collection of the raw data
