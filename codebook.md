@@ -43,7 +43,7 @@ While the ZIP input file contains numerous datasets, this project will only requ
 
 
 
-# Tidy Dataset
+## Tidy Dataset
 
 - subject
 - activity
