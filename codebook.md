@@ -67,8 +67,15 @@ Load the (7) files into corresponding Data Frames
 
 - Use factor() function to replace activity 'levels' with activity descriptions/lables that were loaded earlier
 
+### Appropriately labels the data set with descriptive variable names
 
-
+- Use names() & gsub() functions to find and replace column names in need of a better description
+- Changed columns headings starting with 't' to start with 'time'
+- Changed columns headings starting with 'f' to start with 'frequency'
+- Changed columns headings containing 'Acc' and replaced 'Acc' with 'Accelerometer'
+- Changed columns headings containing 'Gyro' and replaced 'Gyro' with 'Gyroscope'
+- Changed columns headings containing 'Mag' and replaced 'Mag' with 'Magnitude'
+- Removed function brackets '()' from column names 
 
 
 ## Tidy Dataset
