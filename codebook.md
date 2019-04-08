@@ -48,8 +48,8 @@ Load the (7) files into corresponding Data Frames
 - activities
 
 
-Transformation
-# Merges the training and the test sets to create one data set.
+## Transformation
+### Merges the training and the test sets to create one data set.
 
 - Leverage rbind() function to merge test and training data frames for activity, subject and features
 - Provide meaningful feature column names using the 'features.txt' file
