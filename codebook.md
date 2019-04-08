@@ -77,6 +77,10 @@ Load the (7) files into corresponding Data Frames
 - Changed columns headings containing 'Mag' and replaced 'Mag' with 'Magnitude'
 - Removed function brackets '()' from column names 
 
+### Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+- Using 'masterMerge' as input leverage group_by() and summarise_if() functions to create a new data frame 'masterMergeMeanStd
+- 'masterMergeMeanStd' contains the average of each variable 
+- Use write.table() function to create a second independent tidy data set
 
 ## Tidy Dataset
 
