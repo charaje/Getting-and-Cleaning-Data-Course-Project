@@ -81,12 +81,9 @@ Load the (7) files into corresponding Data Frames
 - Using 'masterMerge' as input leverage group_by() and summarise_if() functions to create a new data frame 'masterMergeMeanStd
 - 'masterMergeMeanStd' contains the average of each variable 
 - Use write.table() function to create a second independent tidy data set
+- Output produces 180 observations and 68 variables
 
-## Tidy Dataset
-
-180 Observations
-68 Variables
-
+### Tidy Dataset
 
 - subject
 - activity
