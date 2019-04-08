@@ -85,7 +85,7 @@ Load the (7) files into corresponding Data Frames
 - File Name: 'IndependentTidyDataSet.txt'
 
 
-### Tidy Dataset
+### Tidy Data Set
 - subject
 - activity
 - timeBodyAccelerometer-mean-X
