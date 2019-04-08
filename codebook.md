@@ -82,9 +82,10 @@ Load the (7) files into corresponding Data Frames
 - 'masterMergeMeanStd' contains the average of each variable 
 - Use write.table() function to create a second independent tidy data set
 - Output produces 180 observations and 68 variables
+- File Name: 'IndependentTidyDataSet.txt'
+
 
 ### Tidy Dataset
-
 - subject
 - activity
 - timeBodyAccelerometer-mean-X
