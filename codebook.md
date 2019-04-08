@@ -25,25 +25,44 @@ For each record in the dataset it is provided:
 - An identifier of the subject who carried out the experiment.
 
 
-## Data Inputs
+## Data Inputs & Ingestion
 
 While the ZIP input file contains numerous datasets, this project will only require the following (7) files. 
 
-- README.txt
-- features_info.txt: Shows information about the variables used on the feature vector.
-- features.txt: List of all features.
+- test/y_test.txt: Test-Activity
+- train/y_train.txt: Training-Activity
+- test/subject_test.txt: Test-Subject
+- train/subject_train.txt: Training-Subject
+- test/X_test.txt: Test-Features
+- train/X_train.txt: Training-Features
 - activity_labels.txt: Links the class labels with their activity name.
-- train/X_train.txt: Training set.
-- train/y_train.txt: Training labels.
-- test/X_test.txt: Test set.
-- test/y_test.txt: Test labels.
+
+Load the (7) files into corresponding Data Frames
+
+- activityTest
+- activityTrain
+- subjectTest
+- subjectTrain
+- featuresTest
+- featuresTrain
+- activities
 
 
+Transformation
+#1. Merges the training and the test sets to create one data set.
+
+- Leverage rbind() function to merge test and training data frames for activity, subject and features
+- Provide meaningful feature column names using the 'features.txt' file
+- Merge activity, subject and feature data frames into a new data frame called 'masterMerge' using the cbind() function
 
 
 
 
 ## Tidy Dataset
+
+180 Observations
+68 Variables
+
 
 - subject
 - activity
